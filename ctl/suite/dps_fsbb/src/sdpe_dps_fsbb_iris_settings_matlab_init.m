@@ -13,7 +13,7 @@ DPS_FSBB_IRIS_SDPE_PROJECT_SUITE = 'dps_fsbb';
 
 DPS_FSBB_IRIS_SDPE_PROJECT_VERSION = '0.1.0';
 
-DPS_FSBB_IRIS_SDPE_PROJECT_UPDATED_AT = '2026-07-18';
+DPS_FSBB_IRIS_SDPE_PROJECT_UPDATED_AT = '2026-07-17';
 
 %% Hardware macros
 IRIS_F280039C_ID = 'iris_f280039c_node';
@@ -72,7 +72,7 @@ DISABLE_FSBB_PROTECTION_FAULT_LOGIC = true;
 %% Controller Options
 % Incremental debug build level. 1: modulation and hardware check; 2: current loop; 3: voltage loop.
 % Options: (1), (2), (3)
-BUILD_LEVEL = 2;
+BUILD_LEVEL = 1;
 
 %% Board GPIO
 % Gate-driver enable GPIO.

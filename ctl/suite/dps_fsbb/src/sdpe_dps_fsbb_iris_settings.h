@@ -27,7 +27,7 @@ extern "C"
 #define DPS_FSBB_IRIS_SDPE_PROJECT_ID "dps_fsbb_f280039c_Iris_node"
 #define DPS_FSBB_IRIS_SDPE_PROJECT_SUITE "dps_fsbb"
 #define DPS_FSBB_IRIS_SDPE_PROJECT_VERSION "0.1.0"
-#define DPS_FSBB_IRIS_SDPE_PROJECT_UPDATED_AT "2026-07-18"
+#define DPS_FSBB_IRIS_SDPE_PROJECT_UPDATED_AT "2026-07-17"
 
 //=================================================================================================
 /**
@@ -83,7 +83,7 @@ extern "C"
  * @brief Incremental debug build level. 1: modulation and hardware check; 2: current loop; 3: voltage loop.
  *        Options: (1), (2), (3)
  */
-#define BUILD_LEVEL (2)
+#define BUILD_LEVEL (1)
 
 //=================================================================================================
 /**

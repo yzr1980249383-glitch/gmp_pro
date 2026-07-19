@@ -195,12 +195,12 @@ extern "C"
 /**
  * @brief Current-loop crossover frequency.
  */
-#define FSBB_CURRENT_LOOP_BANDWIDTH (800.0f)
+#define FSBB_CURRENT_LOOP_BANDWIDTH (8000.0f)
 
 /**
  * @brief Voltage-loop crossover frequency.
  */
-#define FSBB_VOLTAGE_LOOP_BANDWIDTH (40.0f)
+#define FSBB_VOLTAGE_LOOP_BANDWIDTH (400.0f)
 
 /**
  * @brief Buck-to-transition boundary.
